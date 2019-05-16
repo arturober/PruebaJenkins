@@ -4,6 +4,10 @@
 package com.prueba.jenkins;
 
 public class App {
+    public int suma(int n1, int n2) {
+        return n1 + n2;
+    }
+    
     public String getGreeting() {
         return "Hello world.";
     }
